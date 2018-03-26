@@ -7,7 +7,8 @@ In order to run UHMEM, we need to install Microsoft Mono package on the system.
 
 We also need to use the Pintools to collect applications' load/store traces, and then cache-filter these traces to get the memory reference traces. These traces should be put in the FilteredTrace folder with a format as follows:
 
-Each line: <number of instructions between last memory reference and this memory reference> <the address of memory read reference> <the address of memory write address (if there is any)>
+Each line: 
+<number of instructions between last memory reference and this memory reference> <the address of memory read reference> <the address of memory write address (if there is any)>
 
 # Getting Started
 To build UHMEM, simply do:
