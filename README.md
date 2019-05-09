@@ -1,6 +1,8 @@
 # UHMEM
-UHMEM is a cycle-accurate hybrid memory simulator. It models a hybrid memory system consisting of a fast memory component and a slow memory component with separate channels connected to processors. The simulator is described at:
-Yang Li, Saugata Ghose, Jongmoo Choi, Jin Sun, Hui Wang, Onur Mutlu, "Utility-Based Hybrid Memory Management", in IEEE Cluster Computing Conference (Cluster), 2017. 
+UHMEM is a cycle-accurate hybrid memory simulator. It models a hybrid memory system consisting of a fast memory component and a slow memory component with separate channels connected to processors. The simulator is described in the following paper:
+> Yang Li, Saugata Ghose, Jongmoo Choi, Jin Sun, Hui Wang, Onur Mutlu
+> ["Utility-Based Hybrid Memory Management"](https://people.inf.ethz.ch/omutlu/pub/utility-based-hybrid-memory-management_cluster17.pdf)
+> IEEE Cluster Computing Conference (CLUSTER), 2017. 
 
 # Prerequisites
 In order to run UHMEM, we need to install Microsoft Mono package on the system.
